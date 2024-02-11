@@ -5,6 +5,7 @@ namespace Lab_1
     {
         public static void Main()
         {
+
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             var Output = new Class();
             int value = Class.a;
