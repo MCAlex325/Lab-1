@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using Lab_1;
 
 namespace Lab_1
 {
-    internal interface Inter
+
+    internal class Info
     {
-        public void Na();
-        public void Ag();
-        public void Hob();
-        public void Info();
 
     }
 }

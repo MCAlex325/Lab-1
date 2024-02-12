@@ -3,28 +3,41 @@ namespace Lab_1
 {
     internal class Program
     {
+        
         public static void Main()
         {
-
+            int a;
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            var Output = new Class();
-            int value = Class.a;
-            Console.Write("Напишіть назву (1 - Людина) (2 - Тварина) (3 - Кіт): ");
-            value = Convert.ToInt32(Console.ReadLine());
-            if (value == 1)
+            Console.Write("Введіть тип 1 - Людина, 2 - Тварина, 3 - Кіт: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            if (a == 1)
             {
-                Output.Human();
+                var obj1 = new Human();
+                obj1.Na();
+                obj1.Ag();
+                obj1.Hob();
+                obj1.Info();
             }
-            if (value == 2)
+            else if (a == 2)
             {
-                Output.Animals();
+                var obj2 = new Animal();
+                obj2.Na();
+                obj2.Ag();
+                obj2.Hob();
+                obj2.Info();
             }
-            if (value == 3)
+            else if (a == 3)
             {
-                Output.Cat();
+                var obj3 = new Cat();
+                obj3.Na();
+                obj3.Ag();
+                obj3.Hob();
+                obj3.Info(); 
             }
-
-            Output.Info();
+            else
+            {
+                Console.WriteLine("Неправильно введено число");
+            }
         }
     }
 }
