@@ -9,6 +9,7 @@ namespace Lab_1
 {
     internal class Cat : Inter
     {
+        // Клас кота
         public string Name { get; set; }
         public string Age { get; set; }
         public string Hobby { get; set; }

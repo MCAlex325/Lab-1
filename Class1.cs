@@ -10,6 +10,7 @@ namespace Lab_1
 {
     internal class Human : Inter
     {
+        // Клас людини
         public string Name { get; set; }
         public string Age { get; set; }
         public string Hobby { get; set; }
