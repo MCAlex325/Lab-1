@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    internal interface Inter
+    internal interface IPatient
     {
-        public void Na();
-        public void Ag();
-        public void Hob();
-        public void Info();
+        public void Name();
+        public void Age();
+        public void Disease();
+        public void Results();
 
     }
 }
